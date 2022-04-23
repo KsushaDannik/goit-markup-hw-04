@@ -202,12 +202,14 @@ ul {
 
 .future-list {
   display: flex;
+  
 }
 .future-item:not(:last-child){
    margin-right: 30px;
 }
 .future-item {
   width: 270px;
+  
 }
 
 .future-title {
@@ -219,14 +221,26 @@ ul {
   margin-bottom: 10px;
 
   font-size: 14px;
+  
 }
 
 .future-text {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-color);
-  
+    
 }
+
+.fon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F5F4FA;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+}
+
 
 
 /* -what we do- */

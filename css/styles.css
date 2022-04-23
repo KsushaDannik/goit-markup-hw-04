@@ -239,6 +239,7 @@ ul {
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
+  border-radius: 4px;
 }
 
 
@@ -314,7 +315,7 @@ ul {
 
 .team-member{
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 16px;
 }
 
 .team-title {
@@ -334,8 +335,38 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-color);
+ 
+}
 
-  
+.our-team-social{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.our-team-social-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    fill: #AFB1B8;
+}
+.our-team-social-link:focus{
+    background-color: var(--link-color);
+}
+.our-team-social-link:focus.our-team-social-icons{
+    fill: var(--primary-white-color);
+}
+.our-team-social-item:not(:last-child){
+    margin-right: 10px;
+}
+.our-team-social-link:hover{
+    background-color: var(--link-color);
+}
+.our-team-social-link:hover.our-team-social-icons{
+    fill: var(--primary-white-color);
 }
 
 /* -Футер -*/

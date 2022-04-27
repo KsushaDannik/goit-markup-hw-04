@@ -16,6 +16,7 @@ html {
   --link-color: #2196f3;
   --background-color: #2f303a;
   --primary-white-color: #fff;
+  --team-link-color: #AFB1B8;
 }
 
 body {
@@ -365,16 +366,16 @@ ul {
     align-items: center;
     width: 44px;
     height: 44px;
-    background-color: #FFFFFF;
+    background-color: var(--primary-white-color);
     border-radius: 50%;
-    fill: #AFB1B8;
+    fill: var(--team-link-color);
 }
 
 .our-team-social-link:focus{
     background-color: var(--link-color);
 }
 .our-team-social-link:focus .our-team-social-icons{
-    fill: #FFFFFF;
+    fill: var(--primary-white-color);
 }
 .our-team-social-item:not(:last-child){
     margin-right: 10px;
@@ -383,7 +384,7 @@ ul {
     background-color: var(--link-color);
 }
 .our-team-social-link:hover .our-team-social-icons{
-    fill: #FFFFFF;
+    fill: var(--primary-white-color);
 }
 
 /* -Клиенты- */
@@ -417,7 +418,7 @@ ul {
     margin-right: 30px;
 }
 .clients-icons{
-    fill: #AFB1B8;
+    fill: var(--team-link-color);
 }
 .clients-link:hover,
 .clients-link:focus{

@@ -332,7 +332,7 @@ ul {
 
 .team-member{
   padding-top: 30px;
-  padding-bottom: 16px;
+  padding-bottom: 30px;
 }
 
 .team-title {
@@ -352,13 +352,14 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-color);
+  margin-bottom: 16px;
  
 }
 
 .our-team-social{
     display: flex;
     justify-content: center;
-    margin-bottom: 30px;
+    
 }
 .our-team-social-link{
     display: flex;
